@@ -1,0 +1,84 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+.profileCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 520px;
+  height: 580px;
+  border: 3px solid black;
+  border-radius: 18px;
+  margin-left: 100px;
+  background-color: rgb(248, 241, 241);
+  padding: 0;
+}
+
+.profileIntoCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageCart {
+  background-color: rgb(59, 57, 57);
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.profileName {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.profileInfo {
+  font-size: 35px;
+  font-weight: 400;
+  color: rgb(101, 100, 98);
+}
+
+.stats {
+  display: flex;
+  margin-top: auto;
+  background-color: rgb(208, 212, 212);
+  height: 130px;
+  width: 100%;
+  padding: 0;
+  border-end-start-radius: 14px;
+  border-end-end-radius: 14px;
+}
+
+.projectListItem {
+  display: flex;
+  flex-direction: column;
+  border-top: 3px solid rgb(101, 100, 98);
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectListItem:nth-child(2) {
+  border-right: 3px solid rgb(101, 100, 98);
+  border-left: 3px solid rgb(101, 100, 98);
+}
+
+.listItemName {
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+}
+
+.listItemNamber {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}

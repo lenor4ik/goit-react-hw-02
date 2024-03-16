@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse; /* Объединяет границы ячеек */
+  width: 100%; /* Ширина таблицы */
+  align-items: center;
+  margin-top: 20px;
+  font-weight: 600;
+  margin-left: 100px;
+}
+
+th,
+td {
+  border: 1px solid black; /* Устанавливает границу для ячеек таблицы */
+  padding: 8px; /* Добавляет отступ внутри ячеек */
+  text-align: center; /* Выравнивание текста в ячейках */
+  width: 25%;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #b4b1b1; /* Цвет фона для заголовков таблицы на четных строках */
+}
+tr:nth-child(odd) {
+  background-color: #ffffff; /* Цвет фона для заголовков таблицы на нечетных строках */
+}

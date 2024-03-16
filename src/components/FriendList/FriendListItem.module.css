@@ -1,0 +1,21 @@
+.friendCart {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 60px;
+  padding: 10px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.friendName {
+  font-size: 20px;
+  font-weight: 600;
+}
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
