@@ -2,6 +2,7 @@ import Options from './components/Options/Options';
 import Feedback from './components/Feedback/Feedback';
 import { useEffect, useState } from 'react';
 import Notification from './components/Notification/Notification';
+import Description from './components/Description/Description';
 
 const initialFeedbacks = {
     good: 0,
@@ -37,8 +38,7 @@ const updateFeedback = (feedbackType) => {
 
   return (
     <>
-      <h1>Sip Happens Café</h1>
-      <p>Please leave your feedback about our service by selecting one of the options below.</p>
+      <Description />
       <Options updateFeedback={updateFeedback} totalFeedback={totalFeedback} resetFeedback={resetFeedback} />
       {totalFeedback > 0 ? (
         <Feedback feedbacks={feedbacks} total={totalFeedback} positive={positiveFeedback} />
